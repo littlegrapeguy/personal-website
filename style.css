@@ -1,0 +1,44 @@
+html {
+  font-family: "Inter", sans-serif;
+  color: #2d3748;
+  background: #edeae1;
+}
+body {
+  padding-right: 3.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 42rem;
+  padding: 2.625rem 1.3125rem;
+  padding-top: 0;
+}
+h1 {
+  font-family: "Sharp25", sans-serif;
+  font-style: italic;
+}
+.meat {
+  padding-top: 10%;
+}
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+code,
+html {
+  word-wrap: break-word;
+}
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: #0d0e0f;
+    color: #e0e0e0;
+  }
+  a,
+  a:hover,
+  a:visited {
+    color: #9f6cff;
+  }
+}
+
+li {
+  padding-bottom: 7px;
+}

@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Sharp15";
+  font-style: normal;
+  font-weight: 100;
+  src: url("https://cdn.glitch.global/52b06b2e-b56f-4603-b422-a6ad610e91fe/SharpGroteskBold15.ttf?v=1642113003548")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Sharp25";
+  font-style: normal;
+  font-weight: 100;
+  src: url("https://cdn.glitch.global/52b06b2e-b56f-4603-b422-a6ad610e91fe/SharpGroteskBold25.ttf?v=1642113005222")
+    format("woff");
+}
+
+@font-face {
+  font-family: "RelFaux";
+  font-style: normal;
+  font-weight: 100;
+  src: url("https://cdn.glitch.global/52b06b2e-b56f-4603-b422-a6ad610e91fe/relative-faux-book.ttf?v=1642113007585")
+    format("woff");
+}
