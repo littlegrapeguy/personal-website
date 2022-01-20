@@ -1,7 +1,7 @@
 html {
   font-family: "Inter", sans-serif;
   color: #2d3748;
-  background: #edeae1;
+  background-image: url('https://cdn.glitch.global/52b06b2e-b56f-4603-b422-a6ad610e91fe/nnnoise%20(1).svg?v=1642565716398');
 }
 body {
   padding-right: 3.5vw;
@@ -14,6 +14,16 @@ body {
 h1 {
   font-family: "Sharp25", sans-serif;
   font-style: italic;
+}
+h2 {
+  font-family: "Sharp25", sans-serif;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+h3 {
+  /*text-shadow: 2px 2px 5px black;*/
+  font-size: 27px;
 }
 .meat {
   padding-top: 10%;
@@ -29,7 +39,7 @@ html {
 }
 @media (prefers-color-scheme: dark) {
   html {
-    background-color: #0d0e0f;
+    background-image: url('https://cdn.glitch.global/52b06b2e-b56f-4603-b422-a6ad610e91fe/nnnoise.svg?v=1642565550906');
     color: #e0e0e0;
   }
   a,
@@ -41,4 +51,50 @@ html {
 
 li {
   padding-bottom: 7px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card > a {
+  text-decoration: none;
+  color: #e0e0e0;
+}
+
+.card {
+  padding: 25px;
+  font-family: "Otomanopee One", sans-serif;
+  position: relative;
+  margin: 10px;
+  flex: 50%;
+  background-color: black;
+  color: #e0e0e0;
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02, 1.02);
+  transition: 0.2s;
+}
+
+@media (min-width: 600px) {
+  .card {
+    flex: 10%;
+  }
+}
+
+@media (max-width: 1600px) {
+  .card {
+    flex: 10%;
+  }
+}
+
+i {
+  transition: 0.2s;
+}
+
+i:hover {
+  transform: scale(1.05, 1.05);
+  transition: 0.2s;
 }
